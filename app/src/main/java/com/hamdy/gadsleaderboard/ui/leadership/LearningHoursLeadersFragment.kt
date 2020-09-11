@@ -28,7 +28,6 @@ class LearningHoursLeadersFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val adapter=LearningHourAdapter()
-
         hoursRecyclerView.layoutManager = LinearLayoutManager(activity)
         hoursRecyclerView.adapter = adapter
         val call=RetrofitInstance.mApi.getLearningHours()

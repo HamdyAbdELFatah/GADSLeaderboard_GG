@@ -21,5 +21,5 @@ interface ApiClients {
         @Field("entry.2006916086") lastName: String,
         @Field("entry.1824927963") emailAddress: String,
         @Field("entry.284483984") projectLink: String
-    ): Response<Void>
+    ): Call<Void>
 }

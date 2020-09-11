@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#FFF">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -11,6 +12,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:contentDescription="Submission Not Successful"
+
         app:layout_constraintDimensionRatio="w,1:4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +29,7 @@
         android:text="Submission Not Successful"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#444"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
